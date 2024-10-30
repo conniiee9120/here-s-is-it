@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f8ff;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#comment-section, #comment-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#comments {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#wishForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#wishForm input, #wishForm textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#wishForm button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
